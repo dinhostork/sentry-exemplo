@@ -4,8 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@sentry/node": "^7.50.0",
     "dotenv": "^16.0.3",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "yarn": "^1.22.19",
+    "youch": "^3.2.3"
   },
   "scripts": {
     "start": "nodemon src/server.ts"
