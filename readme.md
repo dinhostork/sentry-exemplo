@@ -18,4 +18,4 @@ Para utilizar o Sentry em sua aplicação, você precisa criar uma conta na plat
 
 Uma vez instalada a biblioteca, é preciso configurá-la corretamente, definindo as informações de sua aplicação, como o ambiente de produção, o projeto e as credenciais de acesso ao Sentry. Com isso, o Sentry passa a capturar automaticamente os erros que ocorrem em sua aplicação, permitindo que você possa monitorá-los em tempo real.
 
-no projeto abaixo, 
+Este é um projeto de exemplo de uso do Sentry
