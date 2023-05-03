@@ -2,7 +2,7 @@ Se você já desenvolveu alguma aplicação, provavelmente já se deparou com si
 
 O problema é: como lidar com esses erros de maneira eficiente e rápida? Uma das soluções mais populares atualmente é utilizar o Sentry, uma plataforma de monitoramento de erros que permite identificar e solucionar problemas em tempo real.
 
-Eu venho utilizando o Sentry em diversas aplicações que desenvolvo, como no backend do Adagio, uma rede social para músicos que estou criando. Neste artigo, vou compartilhar um pouco da minha experiência com essa ferramenta e como ela pode ser útil para você também.
+Eu venho utilizando o Sentry em diversas aplicações que desenvolvo, como no backend do Adagio, uma rede social para músicos que estou criando.
 
 ## O que é Sentry?
 
@@ -19,3 +19,10 @@ Para utilizar o Sentry em sua aplicação, você precisa criar uma conta na plat
 Uma vez instalada a biblioteca, é preciso configurá-la corretamente, definindo as informações de sua aplicação, como o ambiente de produção, o projeto e as credenciais de acesso ao Sentry. Com isso, o Sentry passa a capturar automaticamente os erros que ocorrem em sua aplicação, permitindo que você possa monitorá-los em tempo real.
 
 Este é um projeto de exemplo de uso do Sentry
+
+
+## Como rodar
+
+- crie um arquivo .env baseado no arquivo.env.example disponível no repositório, inserindo sua credencial (DSN) obtida na plataforma Sentry.
+- instale as dependências do projeto através do npm install ou yarn install
+- rode o projeto utilizando npm run start ou yarn start
